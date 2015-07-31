@@ -1,0 +1,26 @@
+div.mod_comments,div.mod_comments a{color:#666666;text-decoration:none;border:0;/*for Mojito*/}
+
+/* form */
+div.mod_comments div.respond h3{border-bottom:2px solid rgba(0, 0, 0, 0.1);width:40em;margin-bottom:2em;}
+div.mod_comments div.respond {margin-top:40px;}
+div.mod_comments div.respond .formfield{margin-bottom:10px;display:block;width:40em;border:1px solid rgba(0, 0, 0, 0.1);-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;line-height:1.4em;}
+div.mod_comments div.respond input[type="submit"]{margin-top:15px;}
+div.mod_comments div.respond .error{border-color:#c00 !important;}
+div.mod_comments div.respond label.error{font-size:0.9em;color:#c00;margin-left:10px;}
+div.mod_comments div.respond label.error::before{content:' * ';}
+div.mod_comments div.respond div.error,div.mod_comments div.respond div.success{border:1px solid #c00;background-color:#ffcccc;padding:15px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-khtml-border-radius: 8px;border-radius: 8px;}
+div.mod_comments div.respond div.success{border-color:#006600;background-color:#ccffcc;}
+
+/* comments */
+div.mod_comments .img-circle{border-radius:50%;}
+div.mod_comments .comment{clear:left;position:relative;}
+div.mod_comments .comment .bubble{border:1px solid rgba(0, 0, 0, 0.1);margin-left:80px;margin-top:15px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-khtml-border-radius: 8px;border-radius: 8px;padding:8px;}
+div.mod_comments .comment .bubble::before{border-color:transparent rgba(0, 0, 0, 0.1) transparent transparent;border-style:solid;border-width:10px 15px 0 0;content:"";height:0;left:65px;position:absolute;width:0;}
+div.mod_comments .comment .avatar{width:80px;height:80px;float:left;}
+div.mod_comments .comment .name{font-weight:900;float:left;}
+div.mod_comments .comment .date{color:rgba(0, 0, 0, 0.5);float:left;font-size:0.8em;}
+div.mod_comments .comment .name,div.mod_comments .comment .date{margin-right: 15px;}
+
+/* navigation */
+div.mod_comments ul.navigation{list-style:inside none none;margin-bottom:20px;border-bottom:2px solid #ccc;padding-left:0}
+div.mod_comments ul.navigation li{display:inline-block;padding:5px 25px 5px 5px;}

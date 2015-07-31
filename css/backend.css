@@ -1,0 +1,7 @@
+div.mod_comments span.icons{width:20%;}
+div.mod_comments span.icon{font-size:1.4em;}
+div.mod_comments span.icon-locked,div.mod_comments span.icon-remove{color:#c00;}
+div.mod_comments span.icon-unlocked{color:#336600;}
+div.mod_comments span.name{display:inline-block;width:50%;margin-left:10%;}
+div.mod_comments span.date{display:inline-block;width:20%;}
+div.mod_comments span.content{display:none;}
